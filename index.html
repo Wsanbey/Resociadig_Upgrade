@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/style.css">
     <!--
 
 TemplateMo 574 Mexant
@@ -30,15 +31,15 @@ https://templatemo.com/tm-574-mexant
 -->
 </head>
 
-<body>
-
-
+<body> 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
+       
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
+                        
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
                             <img src="assets/images/logo.png" alt="">
@@ -47,17 +48,17 @@ https://templatemo.com/tm-574-mexant
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
-                            <li class="scroll-to-section"><a href="#services">Serviços</a></li>
-                            <li class="scroll-to-section"><a href="#about">Sobre</a></li>
                             <li class="has-sub">
-                                <a href="javascript:void(0)">Páginas</a>
-                                <ul class="sub-menu">
-                                    <li><a href="/">Sobre Nós</a></li>
-                                    <li><a href="/">Nossos Serviços</a></li>
-                                    <li><a href="/">Contate-Nos</a></li>
+                                <a href="javascript:void(0)">Serviços</a>
+                                <ul id="custom-sub-menu" class="sub-menu ">
+                                    <li><a href="/">Cadastrar e listar Apenados</a></li>
+                                    <li><a href="/">Cadastrar e listar Empresas</a></li>
+                                    <li><a href="/">Cadastrar e listar Vagas</a></li>
                                 </ul>
                             </li> 
-                            <li><a href="#calculator">Contate O Suporte</a></li>
+                            <li class="scroll-to-section"><a href="#services">Embreve</a></li>
+                            <li class="scroll-to-section"><a href="#about">Sobre</a></li>
+                            <li><a href="#calculator">Ativar Status</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -69,6 +70,8 @@ https://templatemo.com/tm-574-mexant
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+     
+   
 
     <!-- ***** Main Banner Area Start ***** -->
     <div class="swiper-container" id="top">
@@ -292,10 +295,21 @@ https://templatemo.com/tm-574-mexant
                     <p>Copyright © 2022 Mexant Co., Ltd. All Rights Reserved.
 
                         <br>Designed by <a title="CSS Templates" rel="sponsored" href="https://index.html" target="_blank">Ressociadigi</a> Distributed By <a title="CSS Templates" rel="sponsored" href="https://index.html" target="_blank">Ressociadigi</a></p>
-                </div>
+               <br>  
+               
+                    </div>
             </div>
         </div>
+       <!-- Inicio Letreilo -->
+     <div class="ticker-container">
+        <div class="ticker-text" id="ticker-text">
+            <!-- Conteúdo do letreiro vai aparecer aqui -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Fim Letreilo -->
     </footer>
+     
 
     <!-- Scripts -->
     <!-- Bootstrap core JavaScript -->

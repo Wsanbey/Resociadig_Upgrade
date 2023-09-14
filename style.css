@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+
+    /* Adicione este estilo ao seu arquivo CSS personalizado */
+    #custom-sub-menu {
+        width: 250px;
+        /* Ajuste o valor da largura conforme necessário */
+    }
+}
+
+/* Adicione este estilo para o letreiro */
+.ticker-container {
+    background-color: black;
+    color: white;
+    height: 40px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    /* Certifica-se de que o letreiro esteja acima de outros elementos */
+}
+
+.ticker-text {
+    white-space: nowrap;
+    padding-top: 5px;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Mantenha o resto do seu CSS inalterado */
